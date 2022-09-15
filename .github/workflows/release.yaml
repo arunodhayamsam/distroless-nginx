@@ -216,3 +216,4 @@ jobs:
             Trivy Count: ${{ steps.scans.outputs.TRIVY_COUNT }}
             Image ID: ${{ matrix.ref }}
             For detailed logs: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+

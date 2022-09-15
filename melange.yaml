@@ -100,4 +100,3 @@ pipeline:
   - name: 'Create tmp dir'
     runs: mkdir ${{targets.destdir}}/var/lib/${{package.name}}/tmp
   - uses: strip
-
